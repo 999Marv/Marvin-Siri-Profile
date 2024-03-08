@@ -1,7 +1,7 @@
 # React + TypeScript + Vite
 
 editing on new macbook
-with ohmyxsh
+with ohmyxshcwcewcwc
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
