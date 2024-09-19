@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll';
+import { Titles, Ids } from '../utils/Constants';
 
 function Navigation() {
   return (
@@ -6,42 +7,42 @@ function Navigation() {
       <ul className="container mx-auto flex justify-center space-x-6">
         <li>
           <Link
-            to="about"
+            to={Ids.About}
             smooth={true}
             duration={500}
             className="cursor-pointer hover:underline"
           >
-            About
+            {Titles.About}
           </Link>
         </li>
         <li>
           <Link
-            to="timeline"
+            to={Ids.Timeline}
             smooth={true}
             duration={500}
             className="cursor-pointer hover:underline"
           >
-            Timeline
+            {Titles.Timeline}
           </Link>
         </li>
         <li>
           <Link
-            to="projects"
+            to={Ids.Projects}
             smooth={true}
             duration={500}
             className="cursor-pointer hover:underline"
           >
-            Projects
+            {Titles.Projects}
           </Link>
         </li>
         <li>
           <Link
-            to="contact"
+            to={Ids.Contact}
             smooth={true}
             duration={500}
             className="cursor-pointer hover:underline"
           >
-            Contact
+            {Titles.Contact}
           </Link>
         </li>
       </ul>

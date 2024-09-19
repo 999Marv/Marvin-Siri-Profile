@@ -10,6 +10,7 @@ function Timeline() {
       </div>
     );
   });
+
   return <>{timeLineList}</>;
 }
 
