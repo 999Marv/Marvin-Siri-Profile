@@ -4,8 +4,7 @@ function Timeline() {
   const timeLineList = TIME_LINE.map((val, idx) => {
     return (
       <div key={idx}>
-        <p>{val.month}</p>
-        <p>{val.year}</p>
+        <p>{val.date}</p>
         <p>{val.event}</p>
       </div>
     );

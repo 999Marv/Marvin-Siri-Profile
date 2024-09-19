@@ -1,5 +1,4 @@
 export type Timeline = {
-  month: string;
-  year: number;
+  date: string;
   event: string;
 };
