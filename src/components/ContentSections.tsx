@@ -1,8 +1,9 @@
-import { Titles, Ids } from '../utils/Constants';
+import { Ids, Titles } from '../utils/constants';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
 import Section from './Section';
+import Skills from './Skills';
 import Timeline from './Timeline';
 
 // Renders the main content sections of the application
@@ -11,6 +12,9 @@ function ContentSections() {
     <main className="pt-16 bg-cream font-sans font text-lg">
       <Section title={Titles.About} id={Ids.About}>
         <About />
+      </Section>
+      <Section title={Titles.Skills} id={Ids.Skills}>
+        <Skills />
       </Section>
       <Section title={Titles.Timeline} id={Ids.Timeline}>
         <Timeline />

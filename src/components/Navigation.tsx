@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import { Titles, Ids } from '../utils/Constants';
+import { Titles, Ids } from '../utils/constants';
 
 function Navigation() {
   return (
@@ -23,6 +23,16 @@ function Navigation() {
             className="cursor-pointer hover:underline"
           >
             {Titles.Timeline}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to={Ids.Skills}
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:underline"
+          >
+            {Titles.Skills}
           </Link>
         </li>
         <li>

@@ -3,6 +3,7 @@ export enum Titles {
   Timeline = 'Timeline',
   Projects = 'Projects',
   Contact = 'Contact',
+  Skills = 'Skills',
 }
 
 export enum Ids {
@@ -10,4 +11,5 @@ export enum Ids {
   Timeline = 'timeline',
   Projects = 'projects',
   Contact = 'contact',
+  Skills = 'skills',
 }

@@ -16,8 +16,8 @@ function About() {
       traveling, and movies.
       <br />
       <br />
-      I'm actively seeking software engineering roles, including Fullstack,
-      Frontend, Backend, QA, and DevOps.
+      I'm actively seeking software engineering and adjacent roles, including
+      Fullstack, Frontend, Backend, QA, and DevOps.
       <br />
       <br />
       Below are details of my journey, projects I’d like to highlight, and my
