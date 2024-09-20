@@ -11,6 +11,9 @@ import ms from './ms.png';
 import git from './git.png';
 import gh from './gh.png';
 import ex from './ex.png';
+import link from './link.png';
+import gm from './gm.png';
+import rs from './rs.png';
 
 export const skills: string[] = [
   js,
@@ -26,4 +29,14 @@ export const skills: string[] = [
   ms,
   git,
   gh,
+];
+
+export const contactLinks: string[][] = [
+  [
+    rs,
+    'https://docs.google.com/document/d/1E6-aGnL1cBo9omsjp6GljiYWvfgq5tvp93RlOELXXDk/pub',
+  ],
+  [link, 'https://www.linkedin.com/in/marvin-siri/'],
+  [gh, 'https://github.com/999Marv'],
+  [gm, 'mailto:marvinsiri123@gmail.com'],
 ];

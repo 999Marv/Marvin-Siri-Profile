@@ -1,5 +1,5 @@
 function Contact() {
-  return <p className="text-black">Your contact information here.</p>;
+  return <p className="text-black">Lets Connect!</p>;
 }
 
 export default Contact;
