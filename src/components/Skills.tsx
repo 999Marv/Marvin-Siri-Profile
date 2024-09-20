@@ -1,7 +1,7 @@
-import { images } from '../assets';
+import { skills } from '../assets';
 
 function Skills() {
-  const skillList = images.map((val, idx) => {
+  const skillList = skills.map((val, idx) => {
     return (
       <li key={idx}>
         <img src={val} alt={`Skill ${idx}`} />

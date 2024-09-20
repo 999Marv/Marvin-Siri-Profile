@@ -10,7 +10,7 @@ export const TIME_LINE: Timeline[] = [
     event: 'Software Engineerig Internship at TodayTix Group',
   },
   {
-    date: 'MAR 2024 - JUN 2024',
+    date: 'MAR 2024 - MAY 2024',
     event: 'Google GSWEP Program',
   },
   {

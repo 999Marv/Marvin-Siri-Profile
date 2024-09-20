@@ -12,7 +12,7 @@ import git from './git.png';
 import gh from './gh.png';
 import ex from './ex.png';
 
-export const images: string[] = [
+export const skills: string[] = [
   js,
   ts,
   gr,

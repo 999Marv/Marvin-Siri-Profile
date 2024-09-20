@@ -17,22 +17,22 @@ function Navigation() {
         </li>
         <li>
           <Link
-            to={Ids.Timeline}
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:underline"
-          >
-            {Titles.Timeline}
-          </Link>
-        </li>
-        <li>
-          <Link
             to={Ids.Skills}
             smooth={true}
             duration={500}
             className="cursor-pointer hover:underline"
           >
             {Titles.Skills}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to={Ids.Timeline}
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:underline"
+          >
+            {Titles.Timeline}
           </Link>
         </li>
         <li>
