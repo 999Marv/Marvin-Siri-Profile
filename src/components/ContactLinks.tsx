@@ -9,13 +9,13 @@ function ContactLinks() {
           <img
             src={image}
             alt={`Contact ${idx}`}
-            className="w-12 h-12 hover:opacity-80"
+            className="w-14 h-14 hover:opacity-80"
           />
         </a>
       </li>
     );
   });
-  return <ul>{contactList}</ul>;
+  return <ul className="flex pt-4 gap-4">{contactList}</ul>;
 }
 
 export default ContactLinks;
