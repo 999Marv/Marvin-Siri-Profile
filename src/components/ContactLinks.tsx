@@ -8,7 +8,7 @@ function ContactLinks() {
         <a href={link} target="_blank">
           <img
             src={image}
-            alt={`Contact ${idx}`}
+            alt={`${link}`}
             className="w-14 h-14 hover:opacity-80"
           />
         </a>
