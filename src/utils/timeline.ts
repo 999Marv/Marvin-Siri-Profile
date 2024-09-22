@@ -5,8 +5,8 @@ export const TIME_LINE: Timeline[] = [
     date: 'AUG 2024 - Continued',
     event: 'Developing New Skills | Job Search',
     description: [
-      'Learning about Go while writing an interpreter, due to a little interest in lower level programming.',
-      'Getting better at DSA everyday with leetcode and reading editorials on them.',
+      'Writing an interpreter in Go, due to an interest in lower level programming.',
+      'Completing Leetcodes and reading editorials daily to improve my Data Structres and Algorithms.',
       'Actively searching for a new software engineering positon!',
     ],
   },
@@ -31,8 +31,12 @@ export const TIME_LINE: Timeline[] = [
     date: 'MAR 2023 - MAR 2024',
     event: 'Software Development Bootcamp at The Marcy Lab School',
     description: [
-      'Completed 2,000 hours of coursework in web development, CS fundamentals, and leadership development.',
-      'Developed proficiency in HTML/CSS, JavaScript, NodeJS, React, Express, PostgreSQL.',
+      'Accumulated 2,000 hours of coursework in web development, computer science fundamentals, and leadership skills.',
+      'Achieved proficiency in HTML/CSS, JavaScript, Node.js, React, Express, and PostgreSQL.',
+      'Consistently completed daily coding challenges.',
+      'Created multiple full-stack applications using an agile software development lifecycle.',
+      'Facilitated job readiness workshops for peers.',
+      'Provided tutoring to classmates on challenging subjects.',
     ],
   },
   {
@@ -50,8 +54,8 @@ export const TIME_LINE: Timeline[] = [
     event:
       'Course Work Towards AAS @ New York City College of Technology | Part time Amazon Shopper',
     description: [
-      'I went to The New York City College Of Technology while in Highschool with a part time job at Amazon.',
-      'I gained around 73 credits and had a 3.5 GPA.',
+      'Attended The New York City College Of Technology while in Highschool with a part time job at Amazon.',
+      'Gained around 73 credits and had a 3.5 GPA.',
     ],
   },
 ];
