@@ -1,12 +1,16 @@
-import ContentSections from './components/ContentSections';
 import Navigation from './components/Navigation';
+import ContentSections from './components/ContentSections';
 
 function App() {
   return (
-    <>
-      <Navigation />
-      <ContentSections />
-    </>
+    <div className="flex min-h-screen bg-cream">
+      <aside className="fixed left-0 top-0 h-full w-64 overflow-y-auto">
+        <Navigation />
+      </aside>
+      <main className="flex-1 ml-64 p-8">
+        <ContentSections />
+      </main>
+    </div>
   );
 }
 
