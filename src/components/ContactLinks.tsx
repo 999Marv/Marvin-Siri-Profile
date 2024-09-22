@@ -15,7 +15,11 @@ function ContactLinks() {
       </li>
     );
   });
-  return <ul className="flex pt-4 gap-4">{contactList}</ul>;
+  return (
+    <ul className="flex pt-8 gap-4" id="contact-list">
+      {contactList}
+    </ul>
+  );
 }
 
 export default ContactLinks;

@@ -11,5 +11,6 @@ export enum Ids {
   Timeline = 'timeline',
   Projects = 'projects',
   Contact = 'contact',
+  ContactList = 'contact-list',
   Skills = 'skills',
 }

@@ -3,7 +3,7 @@ import ContactLinks from './ContactLinks';
 function About() {
   return (
     <>
-      <p className="text-black pt-4">
+      <p className="text-black">
         Hi, I'm Marvin! I’m a software engineer based in New York City with a
         passion for technology and development. During my internship at TodayTix
         Group, I contributed to launching a rewards system that impacted over

@@ -3,7 +3,7 @@ import ts from './ts.png';
 import gr from './gr.png';
 import html from './html.png';
 import css from './css.png';
-import react from './ts.png';
+import react from './react.png';
 import sql from './sql.png';
 import node from './node.png';
 import pg from './pg.png';
