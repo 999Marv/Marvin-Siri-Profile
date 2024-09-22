@@ -5,7 +5,7 @@ function ContactLinks() {
     const [image, link] = val;
     return (
       <li key={idx}>
-        <a href={link}>
+        <a href={link} target="_blank">
           <img
             src={image}
             alt={`Contact ${idx}`}
