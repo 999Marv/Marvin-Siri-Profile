@@ -7,24 +7,22 @@ import Skills from './Skills';
 import Timeline from './Timeline';
 
 // Renders the main content sections of the application
+const sectionsData = [
+  { title: Titles.About, id: Ids.About, component: <About /> },
+  { title: Titles.Skills, id: Ids.Skills, component: <Skills /> },
+  { title: Titles.Timeline, id: Ids.Timeline, component: <Timeline /> },
+  { title: Titles.Projects, id: Ids.Projects, component: <Projects /> },
+  { title: Titles.Contact, id: Ids.Contact, component: <Contact /> },
+];
+
 function ContentSections() {
   return (
     <main className="pt-16 bg-cream font-sans font text-lg">
-      <Section title={Titles.About} id={Ids.About}>
-        <About />
-      </Section>
-      <Section title={Titles.Skills} id={Ids.Skills}>
-        <Skills />
-      </Section>
-      <Section title={Titles.Timeline} id={Ids.Timeline}>
-        <Timeline />
-      </Section>
-      <Section title={Titles.Projects} id={Ids.Projects}>
-        <Projects />
-      </Section>
-      <Section title={Titles.Contact} id={Ids.Contact}>
-        <Contact />
-      </Section>
+      {sectionsData.map((section, idx) => (
+        <Section key={idx} title={section.title} id={section.id}>
+          {section.component}
+        </Section>
+      ))}
     </main>
   );
 }
