@@ -5,7 +5,7 @@ import dog from '/src/assets/dog.jpg';
 function Contact() {
   return (
     <p className="text-black">
-      If you think I'd be a good fit for your company, you'd just like to chat
+      If you think I'd be a good fit for your company or you'd just like to chat
       lets{' '}
       <Link
         to={Ids.ContactList}
@@ -15,7 +15,6 @@ function Contact() {
       >
         connect!
       </Link>
-      <br />
       <br />
       Here's a photo of this cool dog I saw when I visited San Fransisco this
       year in September :)
