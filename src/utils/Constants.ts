@@ -1,9 +1,9 @@
 export enum Titles {
   About = 'About',
+  Skills = 'Skills',
   Timeline = 'Timeline',
   Projects = 'Projects',
   Contact = 'Contact',
-  Skills = 'Skills',
 }
 
 export enum Ids {

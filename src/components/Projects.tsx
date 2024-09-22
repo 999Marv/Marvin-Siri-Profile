@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem';
 
 function Projects() {
   return (
-    <section className="flex justify-center">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
       {PROJECTS.map((project, idx) => (
         <ProjectItem key={idx} project={project} />
       ))}

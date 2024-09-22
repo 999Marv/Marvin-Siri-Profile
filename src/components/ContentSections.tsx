@@ -17,7 +17,7 @@ const sectionsData = [
 
 function ContentSections() {
   return (
-    <main className="pt-16 font-sans font text-lg bg-cream">
+    <main className="font-sans font text-lg bg-cream">
       {sectionsData.map((section, idx) => (
         <Section
           key={idx}
