@@ -2,19 +2,21 @@ import { Project } from '../types/project';
 
 const ProjectItem = ({ project }: { project: Project }) => {
   return (
-    <div className="border p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow bg-white w-full">
-      <h3 className="text-xl font-semibold text-gray-800 mb-4">
+    <div className="border rounded-lg shadow-lg hover:shadow-xl transition-shadow bg-white w-full h-[500px] flex flex-col">
+      <h3 className="text-xl font-semibold text-gray-800 p-6 border-b">
         {project.title}
       </h3>
-      <ul className="space-y-2 text-base text-gray-600 mb-4">
-        {project.description.map((desc, idx) => (
-          <li key={idx} className="flex items-start">
-            <span className="mr-2 text-gray-400">•</span>
-            <span>{desc}</span>
-          </li>
-        ))}
-      </ul>
-      <div className="space-y-2">
+      <div className="flex-grow overflow-y-auto p-6">
+        <ul className="space-y-2 text-base text-gray-600 mb-4">
+          {project.description.map((desc, idx) => (
+            <li key={idx} className="flex items-start">
+              <span className="mr-2 text-gray-400">•</span>
+              <span>{desc}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="border-t p-6 space-y-2">
         {project.links.map((link, idx) => (
           <a
             href={link.url}

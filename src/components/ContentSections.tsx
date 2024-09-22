@@ -17,13 +17,13 @@ const sectionsData = [
 
 function ContentSections() {
   return (
-    <main className="font-sans font text-lg bg-cream">
+    <main className="font-sans font text-lg bg-cream pr-4">
       {sectionsData.map((section, idx) => (
         <Section
           key={idx}
           title={section.title}
           id={section.id}
-          bg={idx % 2 === 0 ? '' : 'bg-white'}
+          bg={idx % 2 === 0 ? '' : 'bg-lightCream'}
         >
           {section.component}
         </Section>

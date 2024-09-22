@@ -6,6 +6,7 @@ export default {
       colors: {
         red: '#EF4551',
         cream: '#fef4f5',
+        lightCream: '#fff9fa',
         black: '#000000',
       },
       fontFamily: {
