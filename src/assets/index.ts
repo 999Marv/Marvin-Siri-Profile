@@ -35,8 +35,9 @@ export const contactLinks: string[][] = [
   [
     rs,
     'https://docs.google.com/document/d/1E6-aGnL1cBo9omsjp6GljiYWvfgq5tvp93RlOELXXDk/pub',
+    'Resume',
   ],
-  [link, 'https://www.linkedin.com/in/marvin-siri/'],
-  [gh, 'https://github.com/999Marv'],
-  [gm, 'mailto:marvinsiri123@gmail.com'],
+  [link, 'https://www.linkedin.com/in/marvin-siri/', 'LinkedIn'],
+  [gh, 'https://github.com/999Marv', 'GitHub'],
+  [gm, 'mailto:marvinsiri123@gmail.com', 'Email'],
 ];
