@@ -3,7 +3,7 @@ import { Project } from '../types/project';
 const ProjectItem = ({ project }: { project: Project }) => {
   return (
     <div className="border rounded-lg shadow-lg hover:shadow-xl transition-shadow bg-white w-full h-[500px] flex flex-col">
-      <h3 className="text-xl font-semibold text-gray-800 p-6 border-b">
+      <h3 className="text-xl text-center font-semibold text-gray-800 p-6 border-b">
         {project.title}
       </h3>
       <div className="flex-grow overflow-y-auto p-6">
