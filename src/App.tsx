@@ -18,11 +18,11 @@ function App() {
       </button>
 
       <aside
-        className={`fixed left-0 top-0 h-full w-64 overflow-y-auto bg-white z-40 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed left-0 top-0 h-full w-52 overflow-y-auto bg-white z-40 transform transition-transform duration-300 ease-in-out ${
           isMenuOpen ? 'translate-x-0' : '-translate-x-full'
         } md:translate-x-0`}
       >
-        <Navigation />
+        <Navigation isMenuOpen={isMenuOpen} />
       </aside>
 
       <main className="flex-1 md:ml-64 pt-5 md:pt-0">
