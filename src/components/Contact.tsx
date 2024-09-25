@@ -5,7 +5,7 @@ import dog from '/src/assets/dog.jpg';
 function Contact() {
   return (
     <div className="text-black flex flex-col items-center">
-      <p className="mb-4">
+      <p className="mb-4 text-center">
         If you think I'd be a good fit for your company or you'd just like to
         chat lets{' '}
         <Link
@@ -24,7 +24,7 @@ function Contact() {
       <img
         src={dog}
         alt="Picture of a doggo"
-        className="w-96 h-96 object-cover rounded-lg shadow-md"
+        className="w-full max-w-sm md:max-w-md lg:max-w-lg h-auto object-cover rounded-lg shadow-md"
       />
     </div>
   );

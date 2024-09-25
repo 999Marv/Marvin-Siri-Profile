@@ -4,15 +4,15 @@ import me from '/src/assets/marvin pic.jpg';
 function About() {
   return (
     <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-8">
-      <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0">
+      <div className="w-32 h-32 sm:w-48 sm:h-48 rounded-full overflow-hidden flex-shrink-0">
         <img
           src={me}
           alt="A picture of me"
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="flex-grow">
-        <p className="text-black">
+      <div className="flex-grow text-center md:text-left">
+        <p className="text-black text-sm sm:text-base">
           Hi, I'm Marvin! I'm a software engineer based in New York City with a
           passion for technology and development. During my internship at
           TodayTix Group, I contributed to launching a rewards system that
