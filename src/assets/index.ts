@@ -14,10 +14,12 @@ import ex from './ex.png';
 import link from './link.png';
 import gm from './gm.png';
 import rs from './rs.png';
+import py from './py.png';
 
 export const skills: string[] = [
   js,
   ts,
+  py,
   gr,
   sql,
   html,

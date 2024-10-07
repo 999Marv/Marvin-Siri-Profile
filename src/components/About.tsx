@@ -20,9 +20,9 @@ function About() {
           Groovy and SQL.
           <br />
           <br />
-          I'm a quick learner who enjoys taking on new challenges. Currently,
-          I'm writing an interpreter in Go and honing my skills in data
-          structures and algorithms.
+          I'm a quick learner who enjoys taking on new challenges. Currently, I
+          picked up Python to learn a new skill and broaden my job search and
+          get better at data structures and algorithms through Leetcode.
           <br />
           <br />
           Beyond tech, I have interests in football, video games, anime, manga,

@@ -3,7 +3,7 @@ import { contactLinks } from '../assets';
 function ContactLinks() {
   return (
     <ul
-      className="flex flex-wrap justify-center pt-4 md:pt-8 gap-4 md:gap-8"
+      className="flex flex-wrap pt-4 md:pt-8 gap-4 md:gap-8 justify-center md:justify-start"
       id="contact-list"
     >
       {contactLinks.map((val, idx) => {
