@@ -6,8 +6,8 @@ export const TIME_LINE: Timeline[] = [
     event: 'Developing New Skills | Job Search',
     description: [
       "Learning Python, building api's, and automating cool stuff.",
-      'Completing Leetcodes and reading editorials daily to improve my Data Structres and Algorithms.',
-      'Actively searching for a new software engineering positon!',
+      'Completing Leetcodes daily to improve my Data Structres and Algorithms.',
+      'Actively searching for new positions in tech!',
     ],
   },
   {
