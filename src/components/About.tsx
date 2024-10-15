@@ -21,8 +21,8 @@ function About() {
           <br />
           <br />
           I'm a quick learner who enjoys taking on new challenges. Currently, I
-          picked up Python to learn a new skill and broaden my job search and
-          get better at data structures and algorithms through Leetcode.
+          am sharpening my TypeScript skills and getting better at data
+          structures and algorithms.
           <br />
           <br />
           Beyond tech, I have interests in football, video games, anime, manga,
@@ -30,7 +30,7 @@ function About() {
           <br />
           <br />
           I'm actively seeking software engineering and adjacent roles,
-          including Fullstack, Frontend, Backend, QA, and DevOps.
+          including Fullstack, Frontend, Backend, QA.
         </p>
         <ContactLinks />
       </div>

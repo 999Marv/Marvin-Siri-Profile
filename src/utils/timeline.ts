@@ -5,7 +5,7 @@ export const TIME_LINE: Timeline[] = [
     date: 'AUG 2024 - Continued',
     event: 'Developing New Skills | Job Search',
     description: [
-      "Learning Python, building api's, and automating cool stuff.",
+      'Sharpening my TypeScript skills.',
       'Completing Leetcodes daily to improve my Data Structres and Algorithms.',
       'Actively searching for new positions in tech!',
     ],
