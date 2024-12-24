@@ -1,5 +1,5 @@
-import ContactLinks from './ContactLinks';
-import me from '/src/assets/marvin pic.jpg';
+import ContactLinks from "./ContactLinks";
+import me from "/src/assets/marvin pic.jpg";
 
 function About() {
   return (
@@ -21,8 +21,8 @@ function About() {
           <br />
           <br />
           I'm a quick learner who enjoys taking on new challenges. Currently, I
-          am sharpening my TypeScript skills and getting better at data
-          structures and algorithms.
+          am freelancing with a small company to build websites for local
+          businesses.
           <br />
           <br />
           Beyond tech, I have interests in football, video games, anime, manga,

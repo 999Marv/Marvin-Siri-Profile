@@ -6,4 +6,5 @@ export type Project = {
     text: string;
   }[];
   demo?: string;
+  images?: string[];
 };

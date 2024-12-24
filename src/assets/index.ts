@@ -15,6 +15,7 @@ import link from './link.png';
 import gm from './gm.png';
 import rs from './rs.png';
 import py from './py.png';
+import res from './Marvin_Siri_ Software_Engineer_resume.pdf';
 
 export const skills: string[] = [
   js,
@@ -34,11 +35,7 @@ export const skills: string[] = [
 ];
 
 export const contactLinks: string[][] = [
-  [
-    rs,
-    'https://docs.google.com/document/d/1E6-aGnL1cBo9omsjp6GljiYWvfgq5tvp93RlOELXXDk/pub',
-    'Resume',
-  ],
+  [rs, res, 'Resume'],
   [link, 'https://www.linkedin.com/in/marvin-siri/', 'LinkedIn'],
   [gh, 'https://github.com/999Marv', 'GitHub'],
   [gm, 'mailto:marvinsiri123@gmail.com', 'Email'],
