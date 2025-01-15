@@ -21,8 +21,9 @@ function About() {
           <br />
           <br />
           I'm a quick learner who enjoys taking on new challenges. Currently, I
-          am freelancing with a small company to build websites for local
-          businesses.
+          am an undergrad attending Boroough of Manhattan Community College
+          studying Computer Science, I am also freelancing with a small company
+          to build websites for local businesses.
           <br />
           <br />
           Beyond tech, I have interests in football, video games, anime, manga,
