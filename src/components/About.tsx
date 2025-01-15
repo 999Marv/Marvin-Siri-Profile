@@ -21,7 +21,7 @@ function About() {
           <br />
           <br />
           I'm a quick learner who enjoys taking on new challenges. Currently, I
-          am an undergrad attending Boroough of Manhattan Community College
+          am an undergrad attending Borough of Manhattan Community College
           studying Computer Science, I am also freelancing with a small company
           to build websites for local businesses.
           <br />
