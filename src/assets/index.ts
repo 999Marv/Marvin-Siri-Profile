@@ -15,21 +15,30 @@ import link from "./link.png";
 import gm from "./gm.png";
 import rs from "./rs.png";
 import py from "./py.png";
-import res from "./Marvin Siri Resume.pdf";
+import flask from "./flask.png";
+import tailwind from "./tailwind.png";
+import sqla from "./sqla.png";
+import next from "./next.png";
+
+import res from "./Marvin_Siri_Resume.pdf";
 
 export const skills: string[] = [
   js,
   ts,
+  next,
   py,
+  flask,
   gr,
   sql,
   html,
   css,
+  tailwind,
   react,
   node,
   ex,
   pg,
   ms,
+  sqla,
   git,
   gh,
 ];

@@ -6,8 +6,32 @@ import ln1 from "../assets/ln1.png";
 import ln2 from "../assets/ln2.png";
 import wn1 from "../assets/wn1.png";
 import wn2 from "../assets/wn2.png";
+import gb1 from "../assets/gb1.png";
+import gb2 from "../assets/gb2.png";
+import gb3 from "../assets/gb3.png";
 
 export const MAIN_PROJECTS: Project[] = [
+  {
+    title: "GetawayBuddy",
+    description: [
+      "GetawayBuddy is an AI powered travel helper that tailors your itinerary to your custom needs and preferences",
+      "This was a big solo project, fullstack using Python, TypeScript, NextJs, Flask, Postgres, SQLAlchemy, Clerk and much more",
+      "Plan a trip anywhere for up to 7 days with this Itinerary generator",
+      "You can also generate a code to any one of your itineraries which you can send and share with your friends!",
+      "Perfect for anyone trying come up with ideas for things to do on their vacation",
+    ],
+    images: [gb1, gb2, gb3],
+    links: [
+      {
+        url: "https://www.getawaybuddy.app/",
+        text: "Link to deployed site on Vercel",
+      },
+      {
+        url: "https://github.com/999Marv/GetawayBuddy",
+        text: "Link to GitHub",
+      },
+    ],
+  },
   {
     title: "Gordon Botsy",
     description: [
@@ -79,20 +103,20 @@ export const MAIN_PROJECTS: Project[] = [
   },
 ];
 
-export const EXTRA_PROJECTS: Project[] = [
-  {
-    title: "Flux",
-    description: [
-      "Developed Flux, my first full-stack eCommerce application, utilizing React, HTML, CSS, Vite, Fakestore API, and Postgres.",
-      "Created a responsive and user-friendly design, offering features like product listings, a shopping cart, and a functional search bar.",
-      "Integrated with the Fakestore API for product data and used Postgres for robust data storage.",
-    ],
-    links: [
-      {
-        url: "https://flux-umber.vercel.app/",
-        text: "Link to deployed site on Vercel",
-      },
-      { url: "https://github.com/marv-chu-flux/Flux", text: "Link to GitHub" },
-    ],
-  },
-];
+// export const EXTRA_PROJECTS: Project[] = [
+//   {
+//     title: "Flux",
+//     description: [
+//       "Developed Flux, my first full-stack eCommerce application, utilizing React, HTML, CSS, Vite, Fakestore API, and Postgres.",
+//       "Created a responsive and user-friendly design, offering features like product listings, a shopping cart, and a functional search bar.",
+//       "Integrated with the Fakestore API for product data and used Postgres for robust data storage.",
+//     ],
+//     links: [
+//       {
+//         url: "https://flux-umber.vercel.app/",
+//         text: "Link to deployed site on Vercel",
+//       },
+//       { url: "https://github.com/marv-chu-flux/Flux", text: "Link to GitHub" },
+//     ],
+//   },
+// ];
