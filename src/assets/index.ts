@@ -20,7 +20,7 @@ import tailwind from "./tailwind.png";
 import sqla from "./sqla.png";
 import next from "./next.png";
 
-import res from "./Marvin_Siri_Resume.pdf";
+import res from "./S_Resume.pdf";
 
 export const skills: string[] = [
   js,
