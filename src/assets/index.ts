@@ -20,8 +20,6 @@ import tailwind from "./tailwind.png";
 import sqla from "./sqla.png";
 import next from "./next.png";
 
-import res from "./S_Resume.pdf";
-
 export const skills: string[] = [
   js,
   ts,
@@ -44,7 +42,11 @@ export const skills: string[] = [
 ];
 
 export const contactLinks: string[][] = [
-  [rs, res, "Resume"],
+  [
+    rs,
+    "https://drive.google.com/file/d/1keAeS08980AnS7ynJSe7qwrjyeqV-hGv/view?usp=drive_link",
+    "Resume",
+  ],
   [link, "https://www.linkedin.com/in/marvin-siri/", "LinkedIn"],
   [gh, "https://github.com/999Marv", "GitHub"],
   [gm, "mailto:marvinsiri123@gmail.com", "Email"],
