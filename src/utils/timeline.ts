@@ -3,13 +3,13 @@ import { Timeline } from "../types/timeline";
 export const TIME_LINE: Timeline[] = [
   {
     date: "AUG 2024 - Continued",
-    event: "College | Freelancing | Job Search",
+    event: "Working on projects | Job Search",
     description: [
-      "I currently attending Borough of Manhattan Community College studying Computer Science.",
-      "Freelancing with a small company to build websites for local businesses using React, TypeScript, SCSS, React Bootstrap and Prismic Headless CMS.",
+      // "I currently attending Borough of Manhattan Community College studying Computer Science.",
+      // "Freelancing with a small company to build websites for local businesses using React, TypeScript, SCSS, React Bootstrap and Prismic Headless CMS.",
       "Working on personal projects to improve my skills and make things I enjoy.",
       "Completing Leetcodes daily to improve my Data Structres and Algorithms.",
-      "Actively searching for new positions in tech!",
+      "Actively searching for new positions in tech! Frontend, backend, fullstack or adjacent roles are welcome!",
     ],
   },
   {

@@ -21,9 +21,9 @@ function About() {
           <br />
           <br />
           I'm a quick learner who enjoys taking on new challenges. Currently, I
-          am an undergrad attending Borough of Manhattan Community College
-          studying Computer Science, I am also freelancing with a small company
-          to build websites for local businesses.
+          am job searching for Frontend, backend, fullstack or adjacent roles. I
+          am also working on a hardware/software project that will track co2
+          levels in my room.
           <br />
           <br />
           Beyond tech, I have interests in football, video games, anime, manga,
