@@ -44,7 +44,7 @@ export const skills: string[] = [
 export const contactLinks: string[][] = [
   [
     rs,
-    "https://drive.google.com/file/d/1keAeS08980AnS7ynJSe7qwrjyeqV-hGv/view?usp=drive_link",
+    "https://docs.google.com/document/d/1x9gBmJOXj3Lr60CeWk5xBJWzIL4KCk3Pxgr6OtCvP-4/edit?tab=t.0",
     "Resume",
   ],
   [link, "https://www.linkedin.com/in/marvin-siri/", "LinkedIn"],
